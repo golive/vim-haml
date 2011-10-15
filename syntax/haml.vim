@@ -77,15 +77,15 @@ syn match   hamlIEConditional "\%(^\s*/\)\@<=\[if\>[^]]*]" contained containedin
 
 hi def link hamlSelfCloser             Special
 hi def link hamlDespacer               Special
-hi def link hamlClassChar              Special
-hi def link hamlIdChar                 Special
-hi def link hamlTag                    Special
-hi def link hamlClass                  Type
+hi def link hamlClassChar              Normal
+hi def link hamlIdChar                 Identifier
+hi def link hamlTag                    Identifier
+hi def link hamlClass                  Identifier
 hi def link hamlId                     Identifier
 hi def link hamlPlainChar              Special
 hi def link hamlInterpolatableChar     hamlRubyChar
 hi def link hamlRubyOutputChar         hamlRubyChar
-hi def link hamlRubyChar               Special
+hi def link hamlRubyChar               Normal
 hi def link hamlInterpolationDelimiter Delimiter
 hi def link hamlInterpolationEscape    Special
 hi def link hamlAttributeString        String

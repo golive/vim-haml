@@ -78,12 +78,12 @@ hi def link sassWarn                    sassControl
 hi def link sassControl                 PreProc
 hi def link sassFor                     PreProc
 hi def link sassEscape                  Special
-hi def link sassIdChar                  Special
-hi def link sassClassChar               Special
+hi def link sassIdChar                  Identifier
+hi def link sassClassChar               Normal
 hi def link sassInterpolationDelimiter  Delimiter
 hi def link sassAmpersand               Character
 hi def link sassId                      Identifier
-hi def link sassClass                   Type
+hi def link sassClass                   Identifier
 
 let b:current_syntax = "sass"
 
